@@ -1,0 +1,26 @@
+src안에 pages, router, components, hook폴더 만들기
+
+pages에 main폴더랑 todo폴더 만들기
+
+main폴더에 signIn,signUp 폴더 및 js파일 만들기
+
+App.js에 라우터에서 '/'초기화면을 main으로 연결시키기
+
+로그인 회원가입 기능 만들기
+
+todo 목록 만들기
+
+todo목록을 관리하기 위한 상태를 생성
+
+useState 훅을 사용하여 초기 상태를 설정하고, Todo 목록을 배열로 저장
+
+Todo 목록을 렌더링하고, 새로운 Todo를 추가하거나 기존 Todo를 삭제하는 함수를 작성
+
+TodoList.js 컴포넌트에서 Todo 목록을 화면에 렌더링
+
+map 함수를 사용하여 각 Todo 항목을 컴포넌트로 변환하여 목록으로 표시
+
+각 Todo 항목 컴포넌트에는 삭제 버튼을 추가하고, 
+
+이 버튼을 클릭하면 해당 Todo를 삭제하는 함수를 호출.
+
